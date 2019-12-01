@@ -39,3 +39,24 @@ export const setLoading = (loading) => {
         loading
     }
 }
+
+export const addToSavedCharacters = (favCharacter) => {
+    return {
+        type: "ADD_TO_SAVED_CHARACTERS",
+        favCharacter
+    }
+}
+
+export const removeFromSaved = (favCharacter) => {
+    return {
+        type: "REMOVE_FROM_SAVED",
+        favCharacter
+    }
+}
+
+export const setViewSaved = (isViewSaved) => {
+    return {
+        type: "SET_VIEW_SAVED",
+        isViewSaved
+    }
+}

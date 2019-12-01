@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  user-select: none;
 }
 
 code {
@@ -52,6 +53,10 @@ img {
   border-radius: 0 !important;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.3);
   border: none !important;
+}
+
+.modal-body {
+  overflow: scroll;
 }
 
 .modal-backdrop.show {

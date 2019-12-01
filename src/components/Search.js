@@ -29,8 +29,6 @@ export class Search extends React.Component {
     }
 
     render() {
-        return <div className="search">
-            <Input placeholder="Search for a character .." onChange={this.debounce(this.onChange, 500)} innerRef={input => this.searchText = input} />
-        </div>
+        return <Input placeholder="Search for a character .." onChange={this.debounce(this.onChange, 500)} innerRef={input => this.searchText = input} />
     }
 }
